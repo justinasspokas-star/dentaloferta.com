@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>DentaOferta — Presupuestos dentales orientativos antes de ir</title>
-<meta name="description" content="Toma fotos guiadas de tu problema dental y recibe presupuestos orientativos de clínicas cercanas. DentaOferta no ofrece diagnóstico médico ni tratamiento dental.">
+<title>DentaOferta — Approximate dental quotes before you go</title>
+<meta name="description" content="Take guided photos of your dental issue and receive approximate dental quotes from nearby clinics. DentaOferta does not provide medical diagnosis or dental treatment.">
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400&display=swap" rel="stylesheet">
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
@@ -392,9 +392,9 @@ footer{background:var(--n2);padding:28px 20px;display:flex;flex-direction:column
     <span class="logo-name">Denta<b>Oferta</b></span>
   </div>
   <div class="nav-r">
-    <div class="lang-switch"><a class="on" href="./">ES</a><a href="./en/">EN</a></div>
-    <button class="nb" onclick="go('login-p')">Entrar</button>
-    <button class="np" onclick="go('scanner')">📸 Escanear dientes</button>
+    <div class="lang-switch"><a href="../">ES</a><a class="on" href="./">EN</a></div>
+    <button class="nb" onclick="go('login-p')">Log in</button>
+    <button class="np" onclick="go('scanner')">📸 Scan teeth</button>
   </div>
 </nav>
 
@@ -405,32 +405,32 @@ footer{background:var(--n2);padding:28px 20px;display:flex;flex-direction:column
     <div class="hero-dots"></div>
     <div class="hero-inner">
       <div>
-        <div class="hero-pill"><div class="hero-pill-dot"></div>Activo · Miami · Houston · LA</div>
-        <h1 class="hero-h1">Compara precios dentales<br><span class="c1">cerca de ti</span><br><span class="c2">antes de ir</span></h1>
-        <p class="hero-lead">Toma fotos guiadas de tu problema dental y recibe presupuestos orientativos de clínicas cercanas. Gratis para pacientes.</p>
+        <div class="hero-pill"><div class="hero-pill-dot"></div>Active · Miami · Houston · LA</div>
+        <h1 class="hero-h1">Compare dental prices<br><span class="c1">near you</span><br><span class="c2">before you go</span></h1>
+        <p class="hero-lead">Take guided photos of your dental issue and receive approximate quotes from nearby clinics. Free for patients.</p>
         <div class="hero-btns">
           <button class="hb-main" onclick="go('scanner')">
-            📸 Escanear mis dientes <span class="arrow">→</span>
+            📸 Scan my teeth <span class="arrow">→</span>
           </button>
-          <button class="hb-sec" onclick="go('reg-clinic')">Soy una clínica</button>
+          <button class="hb-sec" onclick="go('reg-clinic')">I’m a clinic</button>
         </div>
         <div class="hero-trust">
           <div class="trust-avs">
             <div class="t-av">😊</div><div class="t-av">😄</div>
             <div class="t-av">🙂</div><div class="t-av">😀</div>
           </div>
-          <div class="trust-text"><strong>Lanzamiento activo</strong><br>Miami · Houston · LA</div>
+          <div class="trust-text"><strong>Active launch</strong><br>Miami · Houston · LA</div>
         </div>
       </div>
       <div class="hero-cards">
-        <div class="fc top"><div class="fc-row"><div><div class="fc-name">Doral Family Dentistry</div><div class="fc-dist">📍 4.1 mi · EN/ES</div></div><div class="fc-price"><sup>$</sup>195</div></div><div class="fc-tags"><span class="fc-tag">Urgente</span><span class="fc-tag">Medicaid</span></div></div>
-        <div class="fc mid"><div class="fc-row"><div><div class="fc-name">Miami Smiles Dental</div><div class="fc-dist">📍 2.8 mi · Español</div></div><div class="fc-price"><sup>$</sup>220</div></div><div class="fc-tags"><span class="fc-tag">Esta semana</span><span class="fc-tag dim">Solo efectivo</span></div></div>
+        <div class="fc top"><div class="fc-row"><div><div class="fc-name">Doral Family Dentistry</div><div class="fc-dist">📍 4.1 mi · EN/ES</div></div><div class="fc-price"><sup>$</sup>195</div></div><div class="fc-tags"><span class="fc-tag">Urgent</span><span class="fc-tag">Medicaid</span></div></div>
+        <div class="fc mid"><div class="fc-row"><div><div class="fc-name">Miami Smiles Dental</div><div class="fc-dist">📍 2.8 mi · Español</div></div><div class="fc-price"><sup>$</sup>220</div></div><div class="fc-tags"><span class="fc-tag">This week</span><span class="fc-tag dim">Cash only</span></div></div>
         <div class="fc hot">
-          <div class="win-badge">⭐ Mejor oferta</div>
-          <div class="fc-row"><div><div class="fc-name">Clínica Dental Hialeah</div><div class="fc-dist">📍 1.2 mi · Español nativo</div></div><div class="fc-price"><sup>$</sup>180</div></div>
+          <div class="win-badge">⭐ Best offer</div>
+          <div class="fc-row"><div><div class="fc-name">Hialeah Dental Clinic</div><div class="fc-dist">📍 1.2 mi · Native Spanish</div></div><div class="fc-price"><sup>$</sup>180</div></div>
           <div class="fc-stars">★★★★★ <span>4.9 · 312 reseñas</span></div>
-          <div class="fc-tags"><span class="fc-tag">Mañana</span><span class="fc-tag">Plan de pago</span></div>
-          <button class="fc-cta" onclick="go('scanner')">Escanear y obtener ofertas →</button>
+          <div class="fc-tags"><span class="fc-tag">Tomorrow</span><span class="fc-tag">Payment plan</span></div>
+          <button class="fc-cta" onclick="go('scanner')">Escanear y obtener offers →</button>
         </div>
       </div>
     </div>
@@ -438,50 +438,50 @@ footer{background:var(--n2);padding:28px 20px;display:flex;flex-direction:column
 
 
   <div class="legal-note">
-    <p><strong>Importante:</strong> DentaOferta no ofrece diagnóstico médico, tratamiento dental ni consejo médico. Las fotos y cualquier resumen visual son solo información orientativa para facilitar la solicitud de presupuesto. El precio y tratamiento final deben ser confirmados por una clínica dental autorizada tras evaluación presencial, radiografías u otras pruebas necesarias. Si tienes hinchazón facial, fiebre, sangrado fuerte, dificultad para respirar o dolor severo, busca atención médica urgente.</p>
+    <p><strong>Important:</strong> DentaOferta does not provide medical diagnosis, dental treatment, or medical advice. Photos and any visual summary are for informational purposes only to help request an approximate quote. Final price and treatment must be confirmed by a licensed dental clinic after an in-person exam, X-rays, or other required tests. If you have facial swelling, fever, heavy bleeding, difficulty breathing, or severe pain, seek urgent medical care.</p>
   </div>
 
   <div class="band">
-    <div class="band-item"><div class="band-num">Gratis</div><div class="band-lbl">Para pacientes</div></div>
-    <div class="band-item"><div class="band-num">Miami</div><div class="band-lbl">Primer mercado</div></div>
-    <div class="band-item"><div class="band-num">2–5</div><div class="band-lbl">Fotos guiadas</div></div>
-    <div class="band-item"><div class="band-num">24h</div><div class="band-lbl">Objetivo de respuesta</div></div>
-    <div class="band-item"><div class="band-num">No diagnóstico</div><div class="band-lbl">Solo orientación</div></div>
+    <div class="band-item"><div class="band-num">Free</div><div class="band-lbl">For patients</div></div>
+    <div class="band-item"><div class="band-num">Miami</div><div class="band-lbl">First market</div></div>
+    <div class="band-item"><div class="band-num">2–5</div><div class="band-lbl">Guided photos</div></div>
+    <div class="band-item"><div class="band-num">24h</div><div class="band-lbl">Response target</div></div>
+    <div class="band-item"><div class="band-num">No diagnosis</div><div class="band-lbl">Guidance only</div></div>
   </div>
 
   <!-- SCANNER CTA -->
   <section class="scanner-cta">
     <div class="scanner-cta-glow"></div>
     <div class="scanner-cta-z">
-      <div class="scanner-badge">✨ Nueva función · Fotos guiadas</div>
-      <h2 class="scanner-h">Toma mejores fotos.<br><span>Las clínicas revisan tu caso.</span></h2>
-      <p class="scanner-p">Te guiamos para tomar fotos claras de tu problema dental. La tecnología ayuda a ordenar la información, pero la revisión y el presupuesto deben ser confirmados por una clínica dental autorizada.</p>
+      <div class="scanner-badge">✨ Nueva función · Guided photos</div>
+      <h2 class="scanner-h">Take better photos.<br><span>Clinics review your case.</span></h2>
+      <p class="scanner-p">We guide you to take clear photos of your dental issue. Technology helps organize the information, but review and pricing must be confirmed by a licensed dental clinic.</p>
       <div class="scanner-features">
-        <div class="sf"><div class="sf-icon">📸</div><div class="sf-t">Guía de foto</div><div class="sf-d">Óvalo guía en tiempo real</div></div>
-        <div class="sf"><div class="sf-icon">💡</div><div class="sf-t">Control de luz</div><div class="sf-d">Ayuda a revisar si hay poca luz</div></div>
-        <div class="sf"><div class="sf-icon">📝</div><div class="sf-t">Resumen del caso</div><div class="sf-d">Información ordenada para clínicas</div></div>
-        <div class="sf"><div class="sf-icon">🏥</div><div class="sf-t">Presupuestos</div><div class="sf-d">Clínicas envían estimaciones</div></div>
+        <div class="sf"><div class="sf-icon">📸</div><div class="sf-t">Photo guide</div><div class="sf-d">Real-time oval guide</div></div>
+        <div class="sf"><div class="sf-icon">💡</div><div class="sf-t">Light check</div><div class="sf-d">Ayuda a revisar si hay poca luz</div></div>
+        <div class="sf"><div class="sf-icon">📝</div><div class="sf-t">Case summary</div><div class="sf-d">Organized information for clinics</div></div>
+        <div class="sf"><div class="sf-icon">🏥</div><div class="sf-t">Quotes</div><div class="sf-d">Clinics send estimates</div></div>
       </div>
       <button class="btn-scanner" onclick="go('scanner')">
-        Probar el escáner gratis <span class="arr">→</span>
+        Try the scanner free <span class="arr">→</span>
       </button>
     </div>
   </section>
 
   <section class="how">
-    <div class="eye">Cómo funciona</div>
-    <div class="sec-h">De la foto al presupuesto<br>en menos de <em>24 horas.</em></div>
+    <div class="eye">How it works</div>
+    <div class="sec-h">From photo to quote<br>in under <em>24 hours.</em></div>
     <div class="how-grid">
-      <div class="how-card"><div class="how-num">01</div><div class="how-body"><h3>Escanea tus dientes</h3><p>La cámara te guía para tomar fotos claras. 60 segundos.</p></div></div>
-      <div class="how-card"><div class="how-num">02</div><div class="how-body"><h3>Se prepara tu caso</h3><p>Organizamos tus fotos, ZIP code y descripción para que una clínica pueda revisarlo.</p></div></div>
-      <div class="how-card"><div class="how-num">03</div><div class="how-body"><h3>Clínicas responden</h3><p>Clínicas cercanas reciben tu caso y pueden enviar un presupuesto orientativo.</p></div></div>
-      <div class="how-card"><div class="how-num">04</div><div class="how-body"><h3>Eliges y vas</h3><p>Comparas precios y eliges. La clínica confirma el precio final tras revisión presencial y pruebas necesarias.</p></div></div>
+      <div class="how-card"><div class="how-num">01</div><div class="how-body"><h3>Take guided photos</h3><p>The camera guides you to take clear photos. 60 seconds.</p></div></div>
+      <div class="how-card"><div class="how-num">02</div><div class="how-body"><h3>Your case is prepared</h3><p>We organize your photos, ZIP code, and description so a clinic can review it.</p></div></div>
+      <div class="how-card"><div class="how-num">03</div><div class="how-body"><h3>Clinics respond</h3><p>Nearby clinics receive your case and may send an approximate quote.</p></div></div>
+      <div class="how-card"><div class="how-num">04</div><div class="how-body"><h3>Choose and go</h3><p>Compare prices and choose. The clinic confirms final pricing after an in-person exam and required tests.</p></div></div>
     </div>
   </section>
 
   <section class="testi-sec">
-    <div class="eye">Testimonios</div>
-    <div class="sec-h">Lo que dicen<br><em>nuestros pacientes.</em></div>
+    <div class="eye">Examples</div>
+    <div class="sec-h">Typical<br><em>patient cases.</em></div>
     <div class="testi-grid">
       <div class="t-card"><div class="t-stars">★★★★★</div><p class="t-q">No tenía seguro y me daba miedo ir sin saber el precio. Subí fotos el martes y el miércoles tenía 4 presupuestos. Ahorré más de $300.</p><div class="t-person"><div class="t-av" style="background:#EFF6FF;color:var(--b)">MG</div><div><div class="t-nm">María G.</div><div class="t-dt">Hialeah, FL · Caries</div></div></div></div>
       <div class="t-card"><div class="t-stars">★★★★★</div><p class="t-q">Me cotizaron $2.800 en la primera clínica. Aquí recibí $1.950 de una clínica con mejores reseñas y más cerca de mi casa.</p><div class="t-person"><div class="t-av" style="background:#FFF7ED;color:#C2410C">RV</div><div><div class="t-nm">Roberto V.</div><div class="t-dt">Doral, FL · Implante</div></div></div></div>
@@ -491,26 +491,26 @@ footer{background:var(--n2);padding:28px 20px;display:flex;flex-direction:column
 
   <div class="split">
     <div class="sp-p">
-      <div class="sp-eye">Para pacientes</div>
-      <div class="sp-h">Sube fotos, compara y decide. Gratis.</div>
-      <p class="sp-p2">Sin sorpresas de precio. La Se prepara tu caso tus fotos. Las clínicas te envían estimaciones.</p>
+      <div class="sp-eye">For patients</div>
+      <div class="sp-h">Sube fotos, compara y decide. Free.</div>
+      <p class="sp-p2">Sin sorpresas de precio. La Your case is prepared tus fotos. Las clínicas te envían estimaciones.</p>
       <div class="sp-checks">
-        <div class="sp-ck"><div class="sp-ck-ico">✓</div>Cámara guiada para fotos dentales</div>
-        <div class="sp-ck"><div class="sp-ck-ico">✓</div>Anónimo hasta que tú eliges</div>
-        <div class="sp-ck"><div class="sp-ck-ico">✓</div>100% gratis para pacientes</div>
+        <div class="sp-ck"><div class="sp-ck-ico">✓</div>Guided camera for dental photos</div>
+        <div class="sp-ck"><div class="sp-ck-ico">✓</div>Anonymous until you choose</div>
+        <div class="sp-ck"><div class="sp-ck-ico">✓</div>100% free for patients</div>
       </div>
-      <button class="btn-w" onclick="go('scanner')">Escanear mis dientes →</button>
+      <button class="btn-w" onclick="go('scanner')">Scan my teeth →</button>
     </div>
     <div class="sp-c">
-      <div class="sp-eye">Para clínicas</div>
-      <div class="sp-h">Pacientes cualificados. Paga si te eligen.</div>
-      <p class="sp-p2">Cada caso llega con fotos, ZIP code y descripción del problema. Puedes enviar una estimación antes de la visita.</p>
+      <div class="sp-eye">For clinics</div>
+      <div class="sp-h">Qualified patients. Pay only if they choose you.</div>
+      <p class="sp-p2">Each case includes photos, ZIP code, and a problem description. You can send an estimate before the visit.</p>
       <div class="sp-checks">
-        <div class="sp-ck"><div class="sp-ck-ico">✓</div>Casos con fotos y descripción clara</div>
-        <div class="sp-ck"><div class="sp-ck-ico">✓</div>Sin pago si no te eligen</div>
-        <div class="sp-ck"><div class="sp-ck-ico">✓</div>Panel de gestión incluido</div>
+        <div class="sp-ck"><div class="sp-ck-ico">✓</div>Cases with photos and a clear description</div>
+        <div class="sp-ck"><div class="sp-ck-ico">✓</div>No payment if not chosen</div>
+        <div class="sp-ck"><div class="sp-ck-ico">✓</div>Management dashboard included</div>
       </div>
-      <button class="btn-out" onclick="go('reg-clinic')">Registrar mi clínica →</button>
+      <button class="btn-out" onclick="go('reg-clinic')">Register my clinic →</button>
     </div>
   </div>
 
@@ -526,14 +526,14 @@ footer{background:var(--n2);padding:28px 20px;display:flex;flex-direction:column
   <div id="sc-intro" class="sc-screen on">
     <div class="sc-intro-icon">🦷</div>
     <h1 class="sc-intro-h">Toma fotos de tus<br><span>dientes en 60s</span></h1>
-    <p class="sc-intro-p">Te guiamos para tomar fotos claras. Una clínica dental autorizada debe revisar tu caso y confirmar cualquier tratamiento.</p>
+    <p class="sc-intro-p">We guide you to take clear photos. A licensed dental clinic must review your case and confirm any treatment.</p>
     <div class="sc-steps">
-      <div class="sc-step"><div class="sc-step-num">1</div><p>Abre bien la boca y colócala dentro del óvalo</p></div>
-      <div class="sc-step"><div class="sc-step-num">2</div><p>Toma 4 fotos: frente, izquierda, derecha y zona afectada</p></div>
-      <div class="sc-step"><div class="sc-step-num">3</div><p>Preparamos un resumen visual para las clínicas</p></div>
+      <div class="sc-step"><div class="sc-step-num">1</div><p>Open your mouth and place it inside the oval</p></div>
+      <div class="sc-step"><div class="sc-step-num">2</div><p>Take 4 photos: front, left, right, and affected area</p></div>
+      <div class="sc-step"><div class="sc-step-num">3</div><p>We prepare a visual summary for clinics</p></div>
     </div>
-    <button class="sc-btn-start" onclick="scStart()">Empezar escáner →</button>
-    <button class="sc-btn-back" onclick="go('home')">← Volver al inicio</button>
+    <button class="sc-btn-start" onclick="scStart()">Start scanner →</button>
+    <button class="sc-btn-back" onclick="go('home')">← Back to home</button>
   </div>
 
   <div id="sc-camera" class="sc-screen">
@@ -543,12 +543,12 @@ footer{background:var(--n2);padding:28px 20px;display:flex;flex-direction:column
         <div class="sc-oval">
           <div class="sc-tick sc-tl"></div><div class="sc-tick sc-tr"></div>
           <div class="sc-tick sc-bl"></div><div class="sc-tick sc-br"></div>
-          <span class="sc-oval-lbl" id="sc-shot-lbl">Vista frontal</span>
+          <span class="sc-oval-lbl" id="sc-shot-lbl">Front view</span>
         </div>
       </div>
-      <div class="sc-status good" id="sc-status"><div class="sc-sdot good" id="sc-sdot"></div><span id="sc-stxt">Buena iluminación</span></div>
+      <div class="sc-status good" id="sc-status"><div class="sc-sdot good" id="sc-sdot"></div><span id="sc-stxt">Good lighting</span></div>
       <div class="sc-counter" id="sc-counter">0 / 4</div>
-      <div class="sc-tip" id="sc-tip">Abre bien la boca y centra tus dientes en el óvalo</div>
+      <div class="sc-tip" id="sc-tip">Open your mouth and center your teeth in the oval</div>
       <div class="sc-guide-strip" id="sc-strip"></div>
       <div class="sc-thumbs" id="sc-thumbs"></div>
       <div class="sc-flash" id="sc-flash"></div>
@@ -563,53 +563,53 @@ footer{background:var(--n2);padding:28px 20px;display:flex;flex-direction:column
   <div id="sc-review" class="sc-screen">
     <div class="sc-rev-header">
       <button class="sc-rev-back" onclick="scShow('sc-camera')">←</button>
-      <span class="sc-rev-title">Revisa tus fotos</span>
+      <span class="sc-rev-title">Review your photos</span>
     </div>
     <div class="sc-rev-body">
       <div class="sc-rev-grid" id="sc-rev-grid"></div>
       <div class="sc-q-row" id="sc-q-row"></div>
       <div class="sc-ai-card">
-        <div class="sc-ai-head"><span class="sc-ai-badge">Resumen visual</span><span class="sc-ai-title">Información orientativa para la clínica</span></div>
+        <div class="sc-ai-head"><span class="sc-ai-badge">Visual summary</span><span class="sc-ai-title">Guidance for the clinic</span></div>
         <div class="sc-findings" id="sc-findings"></div>
         <div class="sc-disclaimer">⚠️ Esto NO es un diagnóstico médico ni una recomendación de tratamiento. Es información orientativa para compartir con clínicas. Solo un dentista autorizado puede diagnosticar, indicar tratamiento y confirmar precio final tras evaluación presencial.</div>
       </div>
       <div class="sc-rev-actions">
         <p class="consent-small">Al enviar aceptas compartir tus fotos, ZIP code y descripción con clínicas dentales cercanas para recibir presupuestos orientativos. Puedes solicitar la eliminación de tus datos.</p>
-        <button class="sc-btn-submit" onclick="scSubmit()">Enviar caso para presupuesto →</button>
-        <button class="sc-btn-retake" onclick="scRetake()">Repetir alguna foto</button>
+        <button class="sc-btn-submit" onclick="scSubmit()">Send case for quote →</button>
+        <button class="sc-btn-retake" onclick="scRetake()">Retake a photo</button>
       </div>
     </div>
   </div>
 
   <div id="sc-success" class="sc-screen">
     <div class="sc-ok-icon">✅</div>
-    <h2 class="sc-ok-h">Caso enviado</h2>
-    <p class="sc-ok-p">3 clínicas cerca de tu ZIP ya están revisando tus fotos y descripción. Recibirás sus ofertas en menos de 24 horas.</p>
+    <h2 class="sc-ok-h">Case sent</h2>
+    <p class="sc-ok-p">3 clínicas cerca de tu ZIP ya están revisando tus fotos y descripción. Recibirás sus offers en menos de 24 horas.</p>
     <div class="sc-offers">
-      <div class="sc-offer best"><div><div class="sc-offer-name">Clínica Dental Hialeah</div><div style="font-size:11px;color:rgba(255,255,255,.4);margin-top:2px">📍 1.2 mi · Revisando...</div></div><div style="font-size:12px;color:#60A5FA;font-weight:600">⚡ Activa</div></div>
-      <div class="sc-offer"><div><div class="sc-offer-name">Doral Family Dentistry</div><div style="font-size:11px;color:rgba(255,255,255,.4);margin-top:2px">📍 2.8 mi</div></div><div style="font-size:12px;color:rgba(255,255,255,.3)">Pendiente</div></div>
-      <div class="sc-offer"><div><div class="sc-offer-name">Miami Smiles Dental</div><div style="font-size:11px;color:rgba(255,255,255,.4);margin-top:2px">📍 4.1 mi</div></div><div style="font-size:12px;color:rgba(255,255,255,.3)">Pendiente</div></div>
+      <div class="sc-offer best"><div><div class="sc-offer-name">Hialeah Dental Clinic</div><div style="font-size:11px;color:rgba(255,255,255,.4);margin-top:2px">📍 1.2 mi · Reviewing...</div></div><div style="font-size:12px;color:#60A5FA;font-weight:600">⚡ Activa</div></div>
+      <div class="sc-offer"><div><div class="sc-offer-name">Doral Family Dentistry</div><div style="font-size:11px;color:rgba(255,255,255,.4);margin-top:2px">📍 2.8 mi</div></div><div style="font-size:12px;color:rgba(255,255,255,.3)">Pending</div></div>
+      <div class="sc-offer"><div><div class="sc-offer-name">Miami Smiles Dental</div><div style="font-size:11px;color:rgba(255,255,255,.4);margin-top:2px">📍 4.1 mi</div></div><div style="font-size:12px;color:rgba(255,255,255,.3)">Pending</div></div>
     </div>
-    <button class="sc-btn-choose" onclick="go('home')">Volver al inicio</button>
+    <button class="sc-btn-choose" onclick="go('home')">Back to home</button>
   </div>
 </div>
 
 <!-- REGISTRO PACIENTE -->
 <div id="pg-reg-patient" class="pg">
   <div class="a-shell">
-    <div class="a-side navy"><div class="a-glow a-glow-n"></div><div class="a-z"><div class="a-badge">🦷 Para pacientes</div><div class="a-h">Tu problema dental.<br>Sus mejores precios.</div><p class="a-sub">Miles de pacientes hispanos ya comparan antes de ir al dentista.</p><div class="a-perks"><div class="a-pk"><div class="a-ico">📸</div>Fotos guiadas</div><div class="a-pk"><div class="a-ico">⚡</div>Objetivo de respuesta en 24 horas</div><div class="a-pk"><div class="a-ico">🔒</div>Anónimo hasta que tú eliges</div><div class="a-pk"><div class="a-ico">💙</div>100% gratis para pacientes</div></div></div></div>
+    <div class="a-side navy"><div class="a-glow a-glow-n"></div><div class="a-z"><div class="a-badge">🦷 For patients</div><div class="a-h">Your dental issue.<br>Better price visibility.</div><p class="a-sub">Patients compare before going to the dentist.</p><div class="a-perks"><div class="a-pk"><div class="a-ico">📸</div>Guided photos</div><div class="a-pk"><div class="a-ico">⚡</div>Response target en 24 horas</div><div class="a-pk"><div class="a-ico">🔒</div>Anonymous until you choose</div><div class="a-pk"><div class="a-ico">💙</div>100% free for patients</div></div></div></div>
     <div class="a-form">
-      <h2>Crea tu cuenta</h2><p class="sub">Gratis · Sin tarjeta · Lista en 2 minutos</p>
-      <div class="seg"><button class="seg-b on">Registrarse</button><button class="seg-b" onclick="go('login-p')">Ya tengo cuenta</button></div>
-      <button class="g-btn"><svg width="16" height="16" viewBox="0 0 24 24"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg>Continuar con Google</button>
-      <div class="or">o con email</div>
-      <div class="fr"><div class="fld"><label>Nombre</label><input type="text" placeholder="María"></div><div class="fld"><label>Apellido</label><input type="text" placeholder="García"></div></div>
+      <h2>Create your account</h2><p class="sub">Free · Sin tarjeta · Lista en 2 minutos</p>
+      <div class="seg"><button class="seg-b on">Sign up</button><button class="seg-b" onclick="go('login-p')">I already have an account</button></div>
+      <button class="g-btn"><svg width="16" height="16" viewBox="0 0 24 24"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg>Continue with Google</button>
+      <div class="or">or with email</div>
+      <div class="fr"><div class="fld"><label>First name</label><input type="text" placeholder="María"></div><div class="fld"><label>Last name</label><input type="text" placeholder="García"></div></div>
       <div class="fld"><label>Email</label><input type="email" placeholder="maria@email.com"></div>
       <div class="fr"><div class="fld"><label>WhatsApp</label><input type="tel" placeholder="+1 305 000 0000"></div><div class="fld"><label>ZIP code</label><input type="text" placeholder="33135" maxlength="5"></div></div>
-      <div class="fld"><label>Contraseña</label><input type="password" placeholder="Mínimo 8 caracteres"></div>
-      <div class="info-box"><p>Las clínicas no ven tus datos hasta que tú eliges</p><p>Recibes las ofertas por email y WhatsApp</p><p>Completamente gratis para pacientes</p></div>
-      <button class="sbtn sbtn-p" onclick="go('patient-dash')">Crear cuenta gratis →</button>
-      <div class="form-note">¿Eres clínica? <a onclick="go('reg-clinic')">Regístrate aquí</a></div>
+      <div class="fld"><label>Password</label><input type="password" placeholder="Minimum 8 characters"></div>
+      <div class="info-box"><p>Las clínicas no ven tus datos hasta que tú eliges</p><p>Recibes las offers por email y WhatsApp</p><p>Completamente gratis para pacientes</p></div>
+      <button class="sbtn sbtn-p" onclick="go('patient-dash')">Create free account →</button>
+      <div class="form-note">Are you a clinic? <a onclick="go('reg-clinic')">Register here</a></div>
     </div>
   </div>
 </div>
@@ -617,33 +617,33 @@ footer{background:var(--n2);padding:28px 20px;display:flex;flex-direction:column
 <!-- REGISTRO CLÍNICA -->
 <div id="pg-reg-clinic" class="pg">
   <div class="a-shell">
-    <div class="a-side blue"><div class="a-glow a-glow-b"></div><div class="a-z"><div class="a-badge">🏥 Para clínicas</div><div class="a-h">Pacientes con intención real.</div><p class="a-sub">Cada caso llega con fotos y descripción. Sabes el caso antes de enviar una estimación.</p><div class="a-perks"><div class="a-pk"><div class="a-ico">📋</div>Casos pre-analizados por IA</div><div class="a-pk"><div class="a-ico">🏆</div>Solo pagas si ganas</div><div class="a-pk"><div class="a-ico">⭐</div>Reputación con reseñas</div></div><div class="a-box"><div class="a-box-tag">Modelo de pago</div><div class="a-box-h">Solo pagas si ganas</div><div class="a-box-p">$40–80 por lead aceptado. Si el paciente no te elige, no pagas nada.</div></div></div></div>
+    <div class="a-side blue"><div class="a-glow a-glow-b"></div><div class="a-z"><div class="a-badge">🏥 For clinics</div><div class="a-h">Pacientes con intención real.</div><p class="a-sub">Cada caso llega con fotos y descripción. Sabes el caso antes de enviar una estimación.</p><div class="a-perks"><div class="a-pk"><div class="a-ico">📋</div>Casos pre-analizados por IA</div><div class="a-pk"><div class="a-ico">🏆</div>Pay only when chosen</div><div class="a-pk"><div class="a-ico">⭐</div>Reputación con reseñas</div></div><div class="a-box"><div class="a-box-tag">Payment model</div><div class="a-box-h">Pay only when chosen</div><div class="a-box-p">$40–80 per accepted lead. If the patient doesn’t choose you, you pay nothing.</div></div></div></div>
     <div class="a-form">
-      <h2>Registra tu clínica</h2><p class="sub">3 pasos · Verificación en 24h</p>
+      <h2>Register your clinic</h2><p class="sub">3 pasos · Verificación en 24h</p>
       <div class="prog"><div class="pd pd-a" id="d1">1</div><div class="pl pl-i" id="l1"></div><div class="pd pd-i" id="d2">2</div><div class="pl pl-i" id="l2"></div><div class="pd pd-i" id="d3">3</div></div>
       <div class="cs on" id="st1">
         <div class="fr"><div class="fld"><label>Dentista</label><input type="text" placeholder="Dr. Carlos López"></div><div class="fld"><label>NPI</label><input type="text" placeholder="1234567890"></div></div>
-        <div class="fld"><label>Nombre clínica</label><input type="text" placeholder="Clínica Dental Hialeah"></div>
+        <div class="fld"><label>First name clínica</label><input type="text" placeholder="Hialeah Dental Clinic"></div>
         <div class="fld"><label>Email</label><input type="email" placeholder="info@clinica.com"></div>
-        <div class="fr"><div class="fld"><label>Teléfono</label><input type="tel" placeholder="+1 305 000"></div><div class="fld"><label>Web</label><input type="text" placeholder="www.clinica.com"></div></div>
-        <div class="fld"><label>Contraseña</label><input type="password" placeholder="Mínimo 8 caracteres"></div>
+        <div class="fr"><div class="fld"><label>Phone</label><input type="tel" placeholder="+1 305 000"></div><div class="fld"><label>Website</label><input type="text" placeholder="www.clinica.com"></div></div>
+        <div class="fld"><label>Password</label><input type="password" placeholder="Minimum 8 characters"></div>
         <button class="sbtn sbtn-c" onclick="cStep(2)">Siguiente →</button>
-        <div class="form-note">¿Eres paciente? <a onclick="go('reg-patient')">Regístrate aquí</a></div>
+        <div class="form-note">Are you a patient? <a onclick="go('reg-patient')">Register here</a></div>
       </div>
       <div class="cs" id="st2">
         <div class="fld"><label>Dirección</label><input type="text" placeholder="1450 W 49th St, Hialeah, FL"></div>
         <div class="fld"><label>ZIP codes</label><div class="zr"><input id="zi" type="text" placeholder="33135"><button onclick="addZ()">+ ZIP</button></div><div id="zt" class="chips"><span class="chip on">33135 ×</span><span class="chip on">33012 ×</span></div></div>
-        <div class="fld"><label>Especialidades</label><div class="chips"><span class="chip on" onclick="this.classList.toggle('on')">General</span><span class="chip" onclick="this.classList.toggle('on')">Ortodoncia</span><span class="chip on" onclick="this.classList.toggle('on')">Endodoncia</span><span class="chip" onclick="this.classList.toggle('on')">Implantes</span><span class="chip" onclick="this.classList.toggle('on')">Periodoncia</span><span class="chip" onclick="this.classList.toggle('on')">Cosmética</span></div></div>
-        <div class="fld"><label>Idiomas</label><div class="chips"><span class="chip on" onclick="this.classList.toggle('on')">Español</span><span class="chip" onclick="this.classList.toggle('on')">English</span><span class="chip" onclick="this.classList.toggle('on')">Português</span></div></div>
-        <div style="display:flex;gap:8px"><button class="sbtn sbtn-bk" style="flex:1" onclick="cStep(1)">← Atrás</button><button class="sbtn sbtn-c" style="flex:2" onclick="cStep(3)">Siguiente →</button></div>
+        <div class="fld"><label>Specialties</label><div class="chips"><span class="chip on" onclick="this.classList.toggle('on')">General</span><span class="chip" onclick="this.classList.toggle('on')">Ortodoncia</span><span class="chip on" onclick="this.classList.toggle('on')">Endodoncia</span><span class="chip" onclick="this.classList.toggle('on')">Implantes</span><span class="chip" onclick="this.classList.toggle('on')">Periodoncia</span><span class="chip" onclick="this.classList.toggle('on')">Cosmética</span></div></div>
+        <div class="fld"><label>Languages</label><div class="chips"><span class="chip on" onclick="this.classList.toggle('on')">Español</span><span class="chip" onclick="this.classList.toggle('on')">English</span><span class="chip" onclick="this.classList.toggle('on')">Português</span></div></div>
+        <div style="display:flex;gap:8px"><button class="sbtn sbtn-bk" style="flex:1" onclick="cStep(1)">← Back</button><button class="sbtn sbtn-c" style="flex:2" onclick="cStep(3)">Siguiente →</button></div>
       </div>
       <div class="cs" id="st3">
         <div style="background:var(--bxl);border:1px solid var(--bl);border-radius:var(--r);padding:11px 14px;margin-bottom:14px;font-size:12px;color:var(--n2)">💡 Clínicas con precios visibles reciben <strong style="color:var(--b)">3× más casos.</strong></div>
-        <div class="fr"><div class="fld"><label>Limpieza desde</label><div class="pw"><span class="sym">$</span><input type="number" placeholder="80"></div></div><div class="fld"><label>Extracción desde</label><div class="pw"><span class="sym">$</span><input type="number" placeholder="120"></div></div></div>
-        <div class="fr"><div class="fld"><label>Empaste desde</label><div class="pw"><span class="sym">$</span><input type="number" placeholder="150"></div></div><div class="fld"><label>Corona desde</label><div class="pw"><span class="sym">$</span><input type="number" placeholder="800"></div></div></div>
-        <div class="fld"><label>Seguros</label><div class="chips"><span class="chip on" onclick="this.classList.toggle('on')">Sin seguro</span><span class="chip" onclick="this.classList.toggle('on')">Medicaid</span><span class="chip" onclick="this.classList.toggle('on')">Delta Dental</span><span class="chip" onclick="this.classList.toggle('on')">Cigna</span></div></div>
+        <div class="fr"><div class="fld"><label>Cleaning from</label><div class="pw"><span class="sym">$</span><input type="number" placeholder="80"></div></div><div class="fld"><label>Extraction from</label><div class="pw"><span class="sym">$</span><input type="number" placeholder="120"></div></div></div>
+        <div class="fr"><div class="fld"><label>Filling from</label><div class="pw"><span class="sym">$</span><input type="number" placeholder="150"></div></div><div class="fld"><label>Crown from</label><div class="pw"><span class="sym">$</span><input type="number" placeholder="800"></div></div></div>
+        <div class="fld"><label>Seguros</label><div class="chips"><span class="chip on" onclick="this.classList.toggle('on')">No insurance</span><span class="chip" onclick="this.classList.toggle('on')">Medicaid</span><span class="chip" onclick="this.classList.toggle('on')">Delta Dental</span><span class="chip" onclick="this.classList.toggle('on')">Cigna</span></div></div>
         <div class="fld"><label>Licencia NPI (verificación 24h)</label><div class="doc-z" onclick="alert('Sube tu licencia NPI')"><div style="font-size:22px;margin-bottom:6px">📄</div><div style="font-size:13px;font-weight:700;margin-bottom:3px">Subir licencia NPI</div><div style="font-size:11px;color:var(--g)">JPG · PNG · PDF · Máx 5MB</div></div></div>
-        <div style="display:flex;gap:8px"><button class="sbtn sbtn-bk" style="flex:1" onclick="cStep(2)">← Atrás</button><button class="sbtn sbtn-c" style="flex:2" onclick="go('clinic-dash')">Registrar clínica →</button></div>
+        <div style="display:flex;gap:8px"><button class="sbtn sbtn-bk" style="flex:1" onclick="cStep(2)">← Back</button><button class="sbtn sbtn-c" style="flex:2" onclick="go('clinic-dash')">Register clinic →</button></div>
       </div>
     </div>
   </div>
@@ -652,15 +652,15 @@ footer{background:var(--n2);padding:28px 20px;display:flex;flex-direction:column
 <!-- LOGIN -->
 <div id="pg-login-p" class="pg">
   <div class="a-shell">
-    <div class="a-side navy"><div class="a-glow a-glow-n"></div><div class="a-z"><div class="a-badge">🦷 Paciente</div><div class="a-h">Bienvenido de nuevo.</div><p class="a-sub">Tus casos activos y las últimas ofertas te están esperando.</p><div class="a-perks"><div class="a-pk"><div class="a-ico">📋</div>Revisa ofertas de tus casos</div><div class="a-pk"><div class="a-ico">📅</div>Gestiona tus citas</div><div class="a-pk"><div class="a-ico">➕</div>Abre nuevos casos</div></div></div></div>
+    <div class="a-side navy"><div class="a-glow a-glow-n"></div><div class="a-z"><div class="a-badge">🦷 Paciente</div><div class="a-h">Welcome back.</div><p class="a-sub">Your active cases and latest offers are waiting.</p><div class="a-perks"><div class="a-pk"><div class="a-ico">📋</div>Revisa offers de tus casos</div><div class="a-pk"><div class="a-ico">📅</div>Gestiona tus citas</div><div class="a-pk"><div class="a-ico">➕</div>Abre nuevos casos</div></div></div></div>
     <div class="a-form">
-      <h2>Iniciar sesión</h2><p class="sub">Accede a tus casos y ofertas.</p>
+      <h2>Iniciar sesión</h2><p class="sub">Accede a tus casos y offers.</p>
       <div class="seg"><button class="seg-b on">Paciente</button><button class="seg-b" onclick="go('reg-clinic')">Clínica</button></div>
-      <button class="g-btn"><svg width="16" height="16" viewBox="0 0 24 24"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg>Entrar con Google</button>
-      <div class="or">o con email</div>
+      <button class="g-btn"><svg width="16" height="16" viewBox="0 0 24 24"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg>Log in con Google</button>
+      <div class="or">or with email</div>
       <div class="fld"><label>Email</label><input type="email" placeholder="maria@email.com"></div>
-      <div class="fld"><label>Contraseña</label><input type="password" placeholder="••••••••"></div>
-      <button class="sbtn sbtn-p" onclick="go('patient-dash')">Entrar →</button>
+      <div class="fld"><label>Password</label><input type="password" placeholder="••••••••"></div>
+      <button class="sbtn sbtn-p" onclick="go('patient-dash')">Log in →</button>
       <div class="form-note">¿No tienes cuenta? <a onclick="go('reg-patient')">Regístrate gratis</a><br><a>¿Olvidaste tu contraseña?</a></div>
     </div>
   </div>
@@ -668,35 +668,35 @@ footer{background:var(--n2);padding:28px 20px;display:flex;flex-direction:column
 
 <!-- DASHBOARD PACIENTE -->
 <div id="pg-patient-dash" class="pg">
-  <div class="dtop"><button class="dtab on">Mis casos</button><button class="dtab">Perfil</button><button class="dtab" style="margin-left:auto" onclick="go('home')">Salir</button></div>
+  <div class="dtop"><button class="dtab on">My cases</button><button class="dtab">Profile</button><button class="dtab" style="margin-left:auto" onclick="go('home')">Log out</button></div>
   <div class="dbody">
     <div class="uc"><div class="uav uav-p">MG</div><div style="flex:1;min-width:0"><div class="u-nm">María García</div><div class="u-sub">maria@email.com · ZIP 33135</div><span class="u-vbadge">Verificada ✓</span></div><button class="np" onclick="go('scanner')">📸 Nuevo escaneo</button></div>
     <div class="cc">
-      <div class="cc-h"><div class="cc-t">Dolor de muela + posible caries</div><span class="bs-bid">3 ofertas</span></div>
+      <div class="cc-h"><div class="cc-t">Tooth pain + posible caries</div><span class="bs-bid">3 offers</span></div>
       <div class="cc-m">Escaneado hace 6 horas · ZIP 33135 · 4 fotos · IA: caries detectada</div>
-      <div class="of-r best"><div><div class="of-nm">Clínica Dental Hialeah</div><div class="of-dt" style="color:var(--b)">⭐ Mejor oferta · 1.2 millas</div></div><div class="of-pr best">$180</div></div>
+      <div class="of-r best"><div><div class="of-nm">Hialeah Dental Clinic</div><div class="of-dt" style="color:var(--b)">⭐ Best offer · 1.2 millas</div></div><div class="of-pr best">$180</div></div>
       <div class="of-r oth"><div><div class="of-nm">Doral Family Dentistry</div><div class="of-dt">4.1 millas</div></div><div class="of-pr oth">$195</div></div>
       <div class="of-r oth"><div><div class="of-nm">Miami Smiles Dental</div><div class="of-dt">2.8 millas</div></div><div class="of-pr oth">$220</div></div>
-      <button class="sbtn sbtn-p" style="margin-top:12px" onclick="alert('Eliges clínica → se desbloquean sus datos')">Elegir clínica →</button>
+      <button class="sbtn sbtn-p" style="margin-top:12px" onclick="alert('Eliges clínica → se desbloquean sus datos')">Choose clinic →</button>
     </div>
-    <div class="cc"><div class="cc-h"><div class="cc-t">Revisión general + limpieza</div><span class="bs-wai">Esperando ofertas</span></div><div class="cc-m">Escaneado hace 1 hora · ZIP 33135 · 4 fotos</div><div style="text-align:center;padding:20px 0;color:var(--g)"><div style="font-size:30px;margin-bottom:8px">⏳</div><p style="font-size:13px;line-height:1.7">Las clínicas están revisando tu caso.<br>Recibirás las primeras ofertas pronto.</p></div></div>
+    <div class="cc"><div class="cc-h"><div class="cc-t">Revisión general + limpieza</div><span class="bs-wai">Esperando offers</span></div><div class="cc-m">Escaneado hace 1 hora · ZIP 33135 · 4 fotos</div><div style="text-align:center;padding:20px 0;color:var(--g)"><div style="font-size:30px;margin-bottom:8px">⏳</div><p style="font-size:13px;line-height:1.7">Las clínicas están revisando tu caso.<br>Recibirás las primeras offers pronto.</p></div></div>
   </div>
 </div>
 
 <!-- DASHBOARD CLÍNICA -->
 <div id="pg-clinic-dash" class="pg">
-  <div class="dtop"><button class="dtab on">Casos nuevos</button><button class="dtab">Mis pujas</button><button class="dtab">Ganados</button><button class="dtab">Perfil</button><button class="dtab" style="margin-left:auto" onclick="go('home')">Salir</button></div>
+  <div class="dtop"><button class="dtab on">Casos nuevos</button><button class="dtab">Mis pujas</button><button class="dtab">Ganados</button><button class="dtab">Profile</button><button class="dtab" style="margin-left:auto" onclick="go('home')">Log out</button></div>
   <div class="dbody">
-    <div class="uc"><div class="uav uav-c">CH</div><div style="flex:1;min-width:0"><div class="u-nm">Clínica Dental Hialeah</div><div class="u-sub">Dr. Carlos López · Hialeah, FL</div><span class="u-vbadge">Verificada ✓</span></div></div>
+    <div class="uc"><div class="uav uav-c">CH</div><div style="flex:1;min-width:0"><div class="u-nm">Hialeah Dental Clinic</div><div class="u-sub">Dr. Carlos López · Hialeah, FL</div><span class="u-vbadge">Verificada ✓</span></div></div>
     <div class="st-row"><div class="st-box"><div class="st-v">3</div><div class="st-l">Nuevos</div></div><div class="st-box"><div class="st-v">2</div><div class="st-l">Ganados</div></div><div class="st-box"><div class="st-v">$340</div><div class="st-l">Invertido</div></div></div>
     <p style="font-size:13px;font-weight:700;color:var(--n);margin-bottom:10px">3 casos nuevos en tu área</p>
     <div class="cc">
-      <div class="cc-h"><div class="cc-t">Dolor de muela · ZIP 33135 · 1.2 mi</div><span class="bs-new">Nuevo</span></div>
-      <div class="cc-m">Mujer · Sin seguro · hace 2h · 4 fotos · <strong style="color:var(--b)">IA: posible caries detectada</strong></div>
+      <div class="cc-h"><div class="cc-t">Tooth pain · ZIP 33135 · 1.2 mi</div><span class="bs-new">Nuevo</span></div>
+      <div class="cc-m">Woman · No insurance · hace 2h · 4 fotos · <strong style="color:var(--b)">IA: posible caries detectada</strong></div>
       <div class="ph-row"><div class="ph">📷</div><div class="ph">📷</div><div class="ph">📷</div><div class="ph more">+1</div></div>
       <div class="bid-f"><span>Mi oferta: $</span><input type="number" placeholder="180" id="b1"><button onclick="sendBid('b1',this)">Enviar oferta</button></div>
     </div>
-    <div class="cc"><div class="cc-h"><div class="cc-t">Ortodoncia adulto · ZIP 33012 · 2.1 mi</div><span class="bs-bid">En comparación</span></div><div class="cc-m">Hombre · Tiene seguro · hace 6h · 3 clínicas compitiendo</div><p style="font-size:12px;color:var(--g);margin-bottom:10px">Tu oferta: <strong style="color:var(--b)">$1.800</strong> · Expira en 14h</p><div class="bid-f"><span>Mejorar: $</span><input type="number" placeholder="1650" id="b2"><button class="imp" onclick="sendBid('b2',this)">Mejorar</button></div></div>
+    <div class="cc"><div class="cc-h"><div class="cc-t">Ortodoncia adulto · ZIP 33012 · 2.1 mi</div><span class="bs-bid">En comparación</span></div><div class="cc-m">Man · Tiene seguro · hace 6h · 3 clínicas compitiendo</div><p style="font-size:12px;color:var(--g);margin-bottom:10px">Tu oferta: <strong style="color:var(--b)">$1.800</strong> · Expira en 14h</p><div class="bid-f"><span>Mejorar: $</span><input type="number" placeholder="1650" id="b2"><button class="imp" onclick="sendBid('b2',this)">Mejorar</button></div></div>
     <div class="cc won"><div class="cc-h"><div class="cc-t">Limpieza + revisión · ZIP 33126</div><span class="bs-won">Ganado ✓</span></div><div class="cc-m">Oferta: <strong style="color:#065F46">$95</strong> · Cita: jueves 10:00 AM</div></div>
     <div class="cc lost"><div class="cc-h"><div class="cc-t">Implante dental · ZIP 33155</div><span class="bs-los">No ganado</span></div><div class="cc-m">Tu oferta: $2.400 · Oferta ganadora: $2.100</div></div>
   </div>
@@ -736,7 +736,7 @@ function sendBid(id,btn){
 
 /* ── SCANNER ── */
 const SC_SHOTS=[
-  {label:'Vista frontal',tip:'Abre bien la boca. Centra todos los dientes en el óvalo.'},
+  {label:'Front view',tip:'Abre bien la boca. Centra todos los dientes en el óvalo.'},
   {label:'Lado izquierdo',tip:'Inclina la cabeza a la derecha para ver tu lado izquierdo.'},
   {label:'Lado derecho',tip:'Inclina la cabeza a la izquierda para ver tu lado derecho.'},
   {label:'Zona del problema',tip:'Abre bien y enfoca la zona donde sientes dolor.'}
@@ -864,7 +864,7 @@ function scReview(){
     </div>`).join('');
   const chips=[
     {t:'4 fotos OK',g:scShots.length>=4},
-    {t:'Buena iluminación',g:true},
+    {t:'Good lighting',g:true},
     {t:'IA análisis listo',g:true}
   ];
   document.getElementById('sc-q-row').innerHTML=chips.map(c=>`<div class="sc-qchip good">${c.g?'✓':''} ${c.t}</div>`).join('');
