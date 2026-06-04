@@ -37,9 +37,9 @@ body{font-family:'Plus Jakarta Sans',sans-serif;background:var(--w);color:var(--
 .pg{display:none}.pg.on{display:block}
 
 /* NAV */
-.nav{position:sticky;top:0;z-index:500;min-height:86px;display:flex;align-items:center;justify-content:space-between;padding:12px 18px;background:rgba(255,255,255,.92);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);border-bottom:1px solid rgba(0,82,255,.08);gap:14px}
+.nav{position:sticky;top:0;z-index:500;min-height:100px;display:flex;align-items:center;justify-content:space-between;padding:12px 18px;background:rgba(255,255,255,.92);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);border-bottom:1px solid rgba(0,82,255,.08);gap:14px}
 .logo{display:flex;align-items:center;cursor:pointer;flex:0 1 auto;min-width:0}
-.logo-img{display:block;height:56px;width:auto;max-width:min(54vw,360px);object-fit:contain;background:transparent}
+.logo-img{display:block;height:78px;width:auto;max-width:min(60vw,420px);object-fit:contain;background:transparent}
 .logo-icon{width:34px;height:34px;background:linear-gradient(135deg,#0052FF,#3B82F6);border-radius:10px;display:flex;align-items:center;justify-content:center;flex-shrink:0}
 .logo-icon svg{width:18px;height:18px;fill:none;stroke:#fff;stroke-width:2.2;stroke-linecap:round}
 .logo-name{font-size:16px;font-weight:800;color:var(--n);letter-spacing:-.5px}
@@ -52,8 +52,8 @@ body{font-family:'Plus Jakarta Sans',sans-serif;background:var(--w);color:var(--
 
 
 @media(max-width:520px){
-  .nav{min-height:64px;padding:8px 12px;gap:8px}
-  .logo-img{height:44px;max-width:60vw;background:transparent}
+  .nav{min-height:80px;padding:10px 12px;gap:8px}
+  .logo-img{height:62px;max-width:70vw;background:transparent}
   .nb{display:none}
   .np{padding:8px 12px;font-size:12px;white-space:nowrap}
   .hero-inner{padding:40px 16px 0;gap:32px}
@@ -419,7 +419,7 @@ footer{background:var(--n2);padding:28px 20px;display:flex;flex-direction:column
   .a-form{flex:1;padding:32px 28px;overflow-y:auto}
 }
 @media(min-width:860px){
- .nav{padding:14px 40px;min-height:96px}.logo-img{height:72px;max-width:440px;background:transparent}
+ .nav{padding:16px 40px;min-height:116px}.logo-img{height:101px;max-width:520px;background:transparent}
  .hero-inner{grid-template-columns:1.15fr 1fr;gap:64px;align-items:end;padding:80px 40px 0}
  .band{padding:22px 40px;grid-template-columns:repeat(5,1fr)}
  .how{padding:72px 40px}
