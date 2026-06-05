@@ -20,28 +20,26 @@
 <meta name="twitter:description" content="Submit guided dental photos and request preliminary price estimates from nearby clinics before scheduling a dental visit.">
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"WebSite","name":"DentaOferta","url":"https://dentaloferta.com/","description":"Submit guided dental photos and request preliminary price estimates from nearby clinics before scheduling a dental visit.","inLanguage":"en-US"}
-
+</script>
+<script>
 function toggleMenu(){
-  var btn = document.getElementById('ham-btn');
-  var menu = document.getElementById('mob-menu');
+  var btn=document.getElementById('ham-btn');
+  var menu=document.getElementById('mob-menu');
   btn.classList.toggle('open');
   menu.classList.toggle('open');
-  document.body.style.overflow = menu.classList.contains('open') ? 'hidden' : '';
+  document.body.style.overflow=menu.classList.contains('open')?'hidden':'';
 }
 function closeMenu(){
-  var btn = document.getElementById('ham-btn');
-  var menu = document.getElementById('mob-menu');
+  var btn=document.getElementById('ham-btn');
+  var menu=document.getElementById('mob-menu');
   btn.classList.remove('open');
   menu.classList.remove('open');
-  document.body.style.overflow = '';
+  document.body.style.overflow='';
 }
-// Close menu when clicking outside
-document.addEventListener('click', function(e){
-  var menu = document.getElementById('mob-menu');
-  var btn = document.getElementById('ham-btn');
-  if(menu && menu.classList.contains('open') && !menu.contains(e.target) && !btn.contains(e.target)){
-    closeMenu();
-  }
+document.addEventListener('click',function(e){
+  var menu=document.getElementById('mob-menu');
+  var btn=document.getElementById('ham-btn');
+  if(menu&&menu.classList.contains('open')&&!menu.contains(e.target)&&!btn.contains(e.target)){closeMenu();}
 });
 </script>
 
@@ -594,7 +592,7 @@ function sendBid(id,btn){
 
 /* ── SCANNER ── */
 const SC_SHOTS=[
- {label:'Front view',tip:'Abre bien la boca. Centra todos los dientes en el óvalo.'},
+ {label:'Front view',tip:'Open wide. Center all your teeth in the oval.'},
  {label:'Left side',tip:'Tilt right to show your left side.'},
  {label:'Right side',tip:'Tilt left to show your right side.'},
  {label:'Problem area',tip:'Open wide and focus on the painful area.'}
