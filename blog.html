@@ -62,6 +62,17 @@ footer{text-align:center;padding:24px;color:#94A3B8;font-size:13px}
   gtag('config', 'G-HGSX8TB62X');
 </script>
 
+
+<script>
+function trackEvent(eventName, params){
+  try{
+    if(typeof gtag === 'function'){
+      gtag('event', eventName, params || {});
+    }
+  }catch(e){}
+}
+</script>
+
 </head>
 <body>
 <nav class="nav"><a href="index.html"><img class="logo-img" src="assets/dentaloferta-logo-horizontal.png" alt="DentaOferta logo"></a><a class="back" href="index.html">Back to home</a></nav>

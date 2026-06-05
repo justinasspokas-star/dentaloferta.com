@@ -55,6 +55,17 @@ footer{text-align:center;padding:24px;color:#94A3B8;font-size:13px}
   gtag('config', 'G-HGSX8TB62X');
 </script>
 
+
+<script>
+function trackEvent(eventName, params){
+  try{
+    if(typeof gtag === 'function'){
+      gtag('event', eventName, params || {});
+    }
+  }catch(e){}
+}
+</script>
+
 </head>
 <body>
 <nav class="nav">
@@ -74,14 +85,14 @@ footer{text-align:center;padding:24px;color:#94A3B8;font-size:13px}
   <div class="card">
     <h2>For dental clinics</h2>
     <p>We are currently inviting selected founding clinics to test DentaOferta for free. Founding clinics can review early patient cases and send preliminary estimates during the launch phase.</p>
-    <a class="btn" href="https://tally.so/r/xXzYYr" target="_blank" rel="noopener">Register as a founding clinic →</a>
+    <a class="btn" href="https://tally.so/r/xXzYYr" target="_blank" rel="noopener" onclick="trackEvent('clinic_register_click', {event_label: 'contact.html'});">Register as a founding clinic →</a>
   </div>
 
   <!-- FOR PATIENTS -->
   <div class="card">
     <h2>For patients</h2>
     <p>Ready to get dental price estimates? Submit your photos and get preliminary quotes from clinics near you — free.</p>
-    <a class="btn" href="https://tally.so/r/81rxjo" target="_blank" rel="noopener">Get free estimates →</a>
+    <a class="btn" href="https://tally.so/r/81rxjo" target="_blank" rel="noopener" onclick="trackEvent('clinic_register_click', {event_label: 'contact.html'});">Get free estimates →</a>
   </div>
 
   <!-- CONTACT FORM -->

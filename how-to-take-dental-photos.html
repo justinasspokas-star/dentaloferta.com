@@ -71,6 +71,17 @@ footer{text-align:center;padding:24px;color:#94A3B8;font-size:13px}
   gtag('config', 'G-HGSX8TB62X');
 </script>
 
+
+<script>
+function trackEvent(eventName, params){
+  try{
+    if(typeof gtag === 'function'){
+      gtag('event', eventName, params || {});
+    }
+  }catch(e){}
+}
+</script>
+
 </head>
 <body>
 <nav class="nav"><a href="index.html"><img class="logo-img" src="assets/dentaloferta-logo-horizontal.png" alt="DentaOferta logo"></a><a class="back" href="index.html">Back to home</a></nav>
@@ -105,7 +116,7 @@ footer{text-align:center;padding:24px;color:#94A3B8;font-size:13px}
   <div class="cta-k">Compare options before you go</div>
   <h3>Want a preliminary dental estimate?</h3>
   <p>Submit guided photos of your dental issue and request preliminary price estimates from local clinics. Final diagnosis and pricing are always confirmed by a licensed dentist.</p>
-  <a href="index.html#scanner" onclick="try{localStorage.setItem('openScanner','1')}catch(e){}">Scan my teeth now →</a>
+  <a href="index.html#scanner" onclick="trackEvent('article_cta_click', {event_label: 'how-to-take-dental-photos.html'});try{localStorage.setItem('openScanner','1')}catch(e){}">Scan my teeth now →</a>
 </div>
 
 <h2>How to improve image quality</h2>
@@ -126,7 +137,7 @@ footer{text-align:center;padding:24px;color:#94A3B8;font-size:13px}
   <div class="disclaimer">This article is for general education only and is not medical or dental advice.</div>
 </div>
 
-<p><a class="cta" href="blog.html">Back to blog</a></p>
+<p><a class="cta" href="blog.html" onclick="trackEvent('blog_click', {event_label: 'how-to-take-dental-photos.html'});">Back to blog</a></p>
 </main>
 <footer>© 2025 DentaOferta · Miami, FL</footer>
 </body>
