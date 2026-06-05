@@ -86,7 +86,7 @@ body{font-family:'Plus Jakarta Sans',sans-serif;background:var(--w);color:var(--
 }
 @media(max-width:520px){
   .nav{min-height:76px;padding:8px 14px;gap:8px}
-  .logo-img{height:52px;max-width:67vw}
+  .logo-img{height:62px;max-width:72vw}
   .nb{display:none}
   .nav-link{font-size:11px;padding:6px 6px}.np{padding:8px 12px;font-size:12px;white-space:nowrap}
   .hero-inner{padding:40px 16px 0;gap:32px}
@@ -534,7 +534,7 @@ function trackEvent(eventName, params){
     <span></span><span></span><span></span>
   </button>
 </nav>
-<div id="mob-menu" class="mob-menu"><a href="blog.html" target="_blank" rel="noopener" onclick="trackEvent(\'blog_click\', {event_label: \'mobile_menu\'});closeMenu()">Blog</a>
+<div id="mob-menu" class="mob-menu"><button class="mob-link" onclick="window.open('blog.html','_blank');closeMenu()">Blog</button>
   <button class="mob-link" onclick="go('scanner');closeMenu()">Scan My Teeth</button>
   <button class="mob-link" onclick="trackEvent('clinic_register_click', {event_label: 'index.html'});window.open('https://tally.so/r/xXzYYr','_blank');closeMenu()">Register My Clinic</button>
   <button class="mob-link" onclick="trackEvent('clinic_register_click', {event_label: 'index.html'});window.open('https://tally.so/r/81rxjo','_blank');closeMenu()">Get Estimates</button>
