@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dental Care Blog — DentaOferta</title>
+<meta name="description" content="Professional dental education articles about tooth pain, bleeding gums, extractions, root canals, and preparing for a dental clinic visit.">
+<link rel="canonical" href="https://dentaloferta.com/blog.html">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{--b:#0052FF;--b2:#3B82F6;--bl:#DBEAFE;--bxl:#EFF6FF;--n:#060E23;--n2:#0F1E3D;--w:#fff;--s:#F6F9FF;--g:#64748B;--gl:#E2E8F0;--r:12px}
+body{font-family:'Plus Jakarta Sans',system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:var(--s);color:var(--n);line-height:1.7;-webkit-font-smoothing:antialiased}
+.nav{min-height:92px;display:flex;align-items:center;justify-content:space-between;padding:14px 22px;background:#ffffff;border-bottom:1px solid rgba(0,82,255,.08)}
+.logo-img{height:61px;width:auto;max-width:336px;object-fit:contain}
+.back{font-size:14px;font-weight:800;color:var(--b);text-decoration:none;background:var(--bxl);border:1px solid var(--bl);padding:9px 14px;border-radius:10px}
+.hero{background:var(--n);padding:70px 20px;text-align:center;color:#fff;position:relative;overflow:hidden}
+.hero:before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 60% 70% at 70% 30%,rgba(59,130,246,.25),transparent 65%);pointer-events:none}
+.hero>*{position:relative;z-index:1}
+.kicker{display:inline-block;color:#93C5FD;background:rgba(59,130,246,.12);border:1px solid rgba(59,130,246,.25);font-size:11px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;padding:6px 14px;border-radius:999px;margin-bottom:18px}
+h1{font-size:clamp(32px,6vw,58px);line-height:1.05;letter-spacing:-2px;margin-bottom:16px}
+.lead{max-width:720px;margin:0 auto;color:rgba(255,255,255,.62);font-size:17px;font-weight:300}
+.main{max-width:980px;margin:0 auto;padding:46px 20px}
+.card{background:#fff;border:1px solid var(--gl);border-radius:18px;padding:28px;box-shadow:0 1px 2px rgba(0,0,0,.04),0 8px 28px rgba(0,82,255,.08);margin-bottom:18px}
+h2{font-size:24px;letter-spacing:-.7px;margin-bottom:10px}
+p{color:var(--g);margin-bottom:12px}
+ul{padding-left:20px;color:var(--g);margin-top:8px}
+li{margin-bottom:8px}
+.cta{display:inline-flex;margin-top:10px;background:var(--b);color:#fff;text-decoration:none;border-radius:12px;padding:13px 18px;font-weight:800}
+.note{font-size:13px;color:#7C2D12;background:#FFF7ED;border:1px solid #FED7AA;border-radius:14px;padding:14px;margin-top:18px}
+footer{text-align:center;padding:24px;color:#94A3B8;font-size:13px}
+@media(max-width:620px){.nav{min-height:76px;padding:10px 14px}.logo-img{height:43px;max-width:56vw}.back{font-size:12px;padding:7px 10px}.hero{padding:52px 18px}.main{padding:30px 16px}.card{padding:22px}h1{letter-spacing:-1.2px}.lead{font-size:15px}}
+
+.blog-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:18px}
+.post-card{background:#fff;border:1px solid var(--gl);border-radius:18px;padding:24px;box-shadow:0 1px 2px rgba(0,0,0,.04),0 8px 28px rgba(0,82,255,.08);display:flex;flex-direction:column;gap:10px}
+.post-card h2{font-size:20px;line-height:1.2;margin:0}
+.post-card p{font-size:14px;margin:0}
+.post-meta{font-size:11px;font-weight:800;color:var(--b);letter-spacing:.08em;text-transform:uppercase}
+.read-more{margin-top:auto;display:inline-flex;color:var(--b);font-weight:800;text-decoration:none}
+.article{max-width:820px}
+.article h2{margin-top:28px}
+.article h3{margin-top:20px;font-size:18px}
+.article p{font-size:16px}
+.article ul{margin-bottom:16px}
+.article .disclaimer{font-size:13px;color:#7C2D12;background:#FFF7ED;border:1px solid #FED7AA;border-radius:14px;padding:14px;margin-top:22px}
+@media(max-width:860px){.blog-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:620px){.blog-grid{grid-template-columns:1fr}.post-card{padding:20px}.article p{font-size:15px}}
+
+.article .clinical-note{background:#EFF6FF;border:1px solid #DBEAFE;color:#0F1E3D;border-radius:14px;padding:16px;margin:18px 0}
+.article .warning{background:#FFF7ED;border:1px solid #FED7AA;color:#7C2D12;border-radius:14px;padding:16px;margin:18px 0}
+.article .key-list li{margin-bottom:10px}
+.article strong{color:#0F1E3D}
+.article .summary-box{background:#F8FAFC;border:1px solid #E2E8F0;border-radius:14px;padding:16px;margin:18px 0}
+</style>
+</head>
+<body>
+<nav class="nav"><a href="index.html"><img class="logo-img" src="assets/dentaloferta-logo-horizontal.png" alt="DentaOferta logo"></a><a class="back" href="index.html">Back to home</a></nav>
+<section class="hero">
+  <div class="kicker">Dental Care Blog</div>
+  <h1>Professional dental education for patients comparing care options.</h1>
+  <p class="lead">Clear, practical articles about dental symptoms, preliminary price estimates, no-insurance care, and preparing for a clinic visit.</p>
+</section>
+<main class="main">
+  <div class="blog-grid"><article class="post-card">
+  <div class="post-meta">Dental pain</div>
+  <h2>Tooth Pain: What to Do Before Visiting a Dentist</h2>
+  <p>A professional educational guide about tooth pain, possible causes, warning signs, and what to prepare before visiting a dental clinic.</p>
+  <a class="read-more" href="tooth-pain-what-to-do.html">Read article →</a>
+</article>
+<article class="post-card">
+  <div class="post-meta">No insurance</div>
+  <h2>Tooth Extraction Cost Without Insurance: What Affects the Price?</h2>
+  <p>Professional guide explaining the main factors that influence tooth extraction costs for patients without dental insurance.</p>
+  <a class="read-more" href="tooth-extraction-cost-without-insurance.html">Read article →</a>
+</article>
+<article class="post-card">
+  <div class="post-meta">Treatment options</div>
+  <h2>Root Canal vs. Tooth Extraction: What Patients Should Know</h2>
+  <p>A professional educational overview comparing root canal treatment and tooth extraction, including why a dentist must decide after evaluation.</p>
+  <a class="read-more" href="root-canal-vs-extraction.html">Read article →</a>
+</article>
+<article class="post-card">
+  <div class="post-meta">Guided photos</div>
+  <h2>How to Take Clear Dental Photos for a Clinic Review</h2>
+  <p>Professional tips for taking clear dental photos when requesting a preliminary dental price estimate from a local clinic.</p>
+  <a class="read-more" href="how-to-take-dental-photos.html">Read article →</a>
+</article>
+<article class="post-card">
+  <div class="post-meta">Bleeding gums</div>
+  <h2>Why Do Gums Bleed? Main Reasons and When to See a Dentist</h2>
+  <p>Learn the most common reasons gums may bleed, including gingivitis, brushing technique, gum disease, medication, and urgent warning signs.</p>
+  <a class="read-more" href="why-gums-bleed.html">Read article →</a>
+</article>
+</div>
+  <div class="note">Educational content only. DentaOferta does not provide diagnosis, treatment, prescriptions, or medical advice. Always consult a licensed dental professional.</div>
+</main>
+<footer>© 2025 DentaOferta · Miami, FL</footer>
+</body>
+</html>
