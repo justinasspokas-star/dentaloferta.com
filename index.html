@@ -865,6 +865,12 @@ function scRetakeAll(){
     scStartQuality();
   }, 200);
 }
+window.addEventListener('DOMContentLoaded', function(){
+  if(window.location.hash === '#scanner'){ go('scanner'); }
+});
+window.addEventListener('hashchange', function(){
+  if(window.location.hash === '#scanner'){ go('scanner'); }
+});
 </script>
 </body>
 </html>
